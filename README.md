@@ -16,8 +16,8 @@ This project showcases clean architecture principles using PHP 8.1+, with suppor
 ## ⚙️ Setup (Local Machine)
 
 1. Clone the repository
-   git clone https://github.com/chisomnzube/acme-widget-co.git
-   cd acme-widget-co
+   - git clone https://github.com/chisomnzube/acme-widget-co.git
+   - cd acme-widget-co
 
 2. Install dependencies using Composer
     composer install
