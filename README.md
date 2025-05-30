@@ -20,7 +20,7 @@ This project showcases clean architecture principles using PHP 8.1+, with suppor
    - cd acme-widget-co
 
 2. Install dependencies using Composer
-    composer install
+   - composer install
 
 ## 🐳 Docker (Recommended)
 
@@ -30,7 +30,7 @@ Run the app in a containerized environment using Docker:
    - docker-compose exec app vendor/bin/phpstan analyse
 
 ## ✅ Running Tests
-   vendor/bin/phpunit
+   - vendor/bin/phpunit
 
 Test coverage includes:
    * Product pricing
@@ -39,25 +39,25 @@ Test coverage includes:
    * Offers (e.g., Buy One Get Half Off)
 
 ## 🔍 Static Analysis (PHPStan)
-   vendor/bin/phpstan analyse
+   - vendor/bin/phpstan analyse
 
 ## 🧠 Design Principles
 This project demonstrates:
 
 Dependency Injection
-Classes do not create their own dependencies but receive them externally for better flexibility and testability.
+   - Classes do not create their own dependencies but receive them externally for better flexibility and testability.
 
 Strategy Pattern
-Offers and delivery rules are implemented as strategies that can be swapped without modifying the basket logic.
+   - Offers and delivery rules are implemented as strategies that can be swapped without modifying the basket logic.
 
 Interfaces and Abstraction
-OfferInterface and DeliveryRuleInterface allow for extensible rules without coupling to concrete classes.
+   - OfferInterface and DeliveryRuleInterface allow for extensible rules without coupling to concrete classes.
 
 Typed Properties and Parameters
-Strict typing ensures safety and better IDE support.
+   - Strict typing ensures safety and better IDE support.
 
 Separation of Concerns
-Each class has a single responsibility — for example, Basket doesn’t know how an offer works.
+   - Each class has a single responsibility — for example, Basket doesn’t know how an offer works.
 
 ## 📁 Project Structure
 
