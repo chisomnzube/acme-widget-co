@@ -1,11 +1,11 @@
-# Acme Widget Basket
+# 🛒 Acme Widget Basket
 
 A simple shopping basket implementation for Acme Widget Co.  
 This project showcases clean architecture principles using PHP 8.1+, with support for promotions, delivery rules, automated testing, and containerization.
 
 ---
 
-## Requirements
+## 📦 Requirements
 
 - PHP 8.1+
 - Composer
@@ -13,7 +13,7 @@ This project showcases clean architecture principles using PHP 8.1+, with suppor
 
 ---
 
-## Setup (Local Machine)
+## ⚙️ Setup (Local Machine)
 
 1. Clone the repository
    git clone https://github.com/chisomnzube/acme-widget-co.git
@@ -22,14 +22,14 @@ This project showcases clean architecture principles using PHP 8.1+, with suppor
 2. Install dependencies using Composer
     composer install
 
-## Docker (Recommended)
+## 🐳 Docker (Recommended)
 
 Run the app in a containerized environment using Docker:
    - docker-compose up --build -d
    - docker-compose exec app vendor/bin/phpunit
    - docker-compose exec app vendor/bin/phpstan analyse
 
-## Running Tests
+## ✅ Running Tests
    vendor/bin/phpunit
 
 Test coverage includes:
