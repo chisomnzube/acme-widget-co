@@ -21,7 +21,7 @@ $basket = new Basket(
     new DeliveryCalculator()
 );
 
-// You can change this to test any combination:
+// here is where ir an a test to for several combinations
 $items = ['B01', 'B01', 'R01', 'R01', 'R01'];
 
 foreach ($items as $code) {

@@ -27,6 +27,7 @@ final class BasketTest extends TestCase
         );
     }
 
+    //test for B01, G01
     public function testBasketWithTwoProducts(): void
     {
         $this->basket->add('B01');
@@ -35,7 +36,8 @@ final class BasketTest extends TestCase
         $this->assertEqualsWithDelta(37.85, $total, 0.01);
     }
 
-    public function testBOGOOffer(): void
+    //test for R01, R01
+    public function testBOBOOffer(): void
     {
         $this->basket->add('R01');
         $this->basket->add('R01');
@@ -43,6 +45,7 @@ final class BasketTest extends TestCase
         $this->assertEqualsWithDelta(54.37, $total, 0.01);
     }
 
+    //test for R01, G01
     public function testROGOOffer(): void
     {
         $this->basket->add('R01');
@@ -51,6 +54,8 @@ final class BasketTest extends TestCase
         $this->assertEqualsWithDelta(60.85, $total, 0.01);
     }
 
+
+    //test for B01, B01, R01, R01, R01
     public function testBOBOROROROOffer(): void
     {
         $this->basket->add('B01');

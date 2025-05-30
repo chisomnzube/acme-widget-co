@@ -1,1 +1,1 @@
-{"version":1,"defects":{"BasketTest::testBOGOOffer":7},"times":{"BasketTest::testBasketWithTwoProducts":0.103,"BasketTest::testBOGOOffer":0,"BasketTest::testROGOOffer":0,"BasketTest::testBOBOROROROOffer":0}}
+{"version":1,"defects":{"BasketTest::testBOGOOffer":7},"times":{"BasketTest::testBasketWithTwoProducts":0.008,"BasketTest::testBOGOOffer":0,"BasketTest::testROGOOffer":0,"BasketTest::testBOBOROROROOffer":0,"BasketTest::testBOBOOffer":0}}
