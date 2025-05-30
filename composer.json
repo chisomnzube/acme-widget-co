@@ -19,5 +19,12 @@
     "analyse": "phpstan analyse src"
   },
   "minimum-stability": "stable",
-  "license": "MIT"
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Chisom Nzube Onyemelukwe",
+      "email": "chisomnzubeonyemelukwe@gmail.com",
+      "role": "Full Stack PHP Developer"
+    }
+  ]
 }
